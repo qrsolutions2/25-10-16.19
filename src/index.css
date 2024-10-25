@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.dashboard-image {
+  @apply w-full h-full object-contain rounded-lg shadow-lg;
+}
+
+.feature-list {
+  @apply space-y-2;
+}
+
+.feature-item {
+  @apply flex items-start;
+}
+
+.feature-icon {
+  @apply w-5 h-5 text-green-500 mr-2 mt-1;
+}
